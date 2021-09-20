@@ -1,0 +1,92 @@
+@font-face {
+    font-family: IRANSANS;
+    src: url("../styles/Iranian Sans.ttf");
+}
+body{
+    direction: rtl;
+    font-family: IRANSANS !important;
+    overflow-x: hidden;
+}
+body{
+    direction: rtl;
+    overflow-x: hidden !important;
+}
+.footer-style{
+    background-color: #4e555b;
+    color: white;
+    text-align: right;
+}
+.footer-list{
+    display: grid;
+}
+.list-style{
+    color: white!important;
+    text-decoration: none!important;
+}
+.footer-fix{
+    font-weight: 300;
+    margin-top: auto;
+    background-color: black;
+    padding: 10px;
+}
+.sample{
+    height: 200px;
+    width: 100%;
+}
+.social-custom{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+.f32{
+    font-size: 32px;
+}
+.brand{
+    text-decoration: none;
+    color: white;
+}
+.brand:hover{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.social{
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .input-space{
+        min-height: 400px;
+        text-align: center;
+    }
+    .form-width{
+        width: 250px;
+    }
+    .textarea-width{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .input-space{
+        min-height: 500px;
+        text-align: center;
+    }
+    .form-width{
+        width: 350px;
+    }
+    .textarea-width{
+        width: 910px;
+    }
+    .nav-custom{
+        border-bottom-left-radius: 250px;
+        background-color: rgba(239, 239, 250, 0.61);
+        border-bottom-right-radius: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
